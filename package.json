@@ -1,0 +1,23 @@
+{
+  "name": "lerna-gui",
+  "version": "0.1.0",
+  "description": "gui for lerna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarvisYang/lerna-gui.git"
+  },
+  "keywords": [
+    "lerna",
+    "gui"
+  ],
+  "author": "ywj200844@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JarvisYang/lerna-gui/issues"
+  },
+  "homepage": "https://github.com/JarvisYang/lerna-gui#readme"
+}
