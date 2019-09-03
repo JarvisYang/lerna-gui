@@ -1,4 +1,3 @@
-const path = require('path');
 const {spawn} = require('child_process');
 
 const lernaAdd = (module, scope) => {
@@ -10,7 +9,7 @@ const lernaAdd = (module, scope) => {
     args.push(`--scope=${scope}`);
   }
   return new Promise((resolve, reject) => {
-    console.log(`[lerna-gui] lerna ${args.join(' ')}`)
+    console.log(`[lerna-gui] lerna ${args.join(' ')}`);
     const runAdd = spawn(
       'lerna',
       args,
